@@ -1,0 +1,56 @@
+#Page{
+    background:rgb(218, 72, 20);}
+#ecran {
+        
+    width  : 1200px;
+    height : 800px;
+    background : black;
+    position: absolute; 
+    margin-top: 32px;
+    margin-left: 50%;  
+    margin-right: 50%;
+    transform: translate(-50%, 10%);
+    border-style: solid;
+    border: -30px;
+    border-color: rgb(82, 81, 81);
+}
+
+#player{
+    width  : 140px;
+    height : 10px;
+    background : white;
+    position:absolute;
+    top: 90%;
+    left:50%;
+    cursor: grab;
+    transform: translate(-50%, -50%);
+}
+#balle{
+    width : 50px;
+    height : 50px;
+    background : green;
+    border-radius : 50%;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+#ligneblock1{
+    width: 1200px;
+    height: 60px;
+    position: absolute;
+    top: 2%;
+    left: 47%;
+    transform: translateX(-50%);
+    margin:0%;
+  }
+#ligneblock2{
+    width: 1200px;
+    height: 60px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin:0%;
+    }
